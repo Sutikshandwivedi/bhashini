@@ -1,0 +1,147 @@
+{
+    "modelId": "iiith/himangy-v1.2",
+    "version": "v1.2",
+    "submittedOn": 1692254490000,
+    "updatedOn": 1695121057000,
+    "name": "IIIT Hyderabad Translation (HimangY) -- v1.2 langset (general domain).",
+    "description": "HimangY translation models are a set of language pair specific Transformer-based models (50M-250M parameters).",
+    "refUrl": "https://ssmt.iiit.ac.in/meitygit/ssmt/mt-model-deploy-dhruva",
+    "task": {
+        "type": "translation"
+    },
+    "languages": [
+        {
+            "sourceLanguage": "en",
+            "sourceScriptCode": "Latn",
+            "targetLanguage": "hi",
+            "targetScriptCode": "Deva"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "en",
+            "targetScriptCode": "Latn"
+        },
+        {
+            "sourceLanguage": "en",
+            "sourceScriptCode": "Latn",
+            "targetLanguage": "te",
+            "targetScriptCode": "Telu"
+        },
+        {
+            "sourceLanguage": "te",
+            "sourceScriptCode": "Telu",
+            "targetLanguage": "en",
+            "targetScriptCode": "Latn"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "te",
+            "targetScriptCode": "Telu"
+        },
+        {
+            "sourceLanguage": "te",
+            "sourceScriptCode": "Telu",
+            "targetLanguage": "hi",
+            "targetScriptCode": "Deva"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "ur",
+            "targetScriptCode": "Arab"
+        },
+        {
+            "sourceLanguage": "ur",
+            "sourceScriptCode": "Arab",
+            "targetLanguage": "hi",
+            "targetScriptCode": "Deva"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "gu",
+            "targetScriptCode": "Gujr"
+        },
+        {
+            "sourceLanguage": "gu",
+            "sourceScriptCode": "Gujr",
+            "targetLanguage": "hi",
+            "targetScriptCode": "Deva"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "pa",
+            "targetScriptCode": "Guru"
+        },
+        {
+            "sourceLanguage": "hi",
+            "sourceScriptCode": "Deva",
+            "targetLanguage": "or",
+            "targetScriptCode": "Orya"
+        },
+        {
+            "sourceLanguage": "or",
+            "sourceScriptCode": "Orya",
+            "targetLanguage": "hi",
+            "targetScriptCode": "Deva"
+        },
+        {
+            "sourceLanguage": "en",
+            "sourceScriptCode": "Latn",
+            "targetLanguage": "gu",
+            "targetScriptCode": "Gujr"
+        },
+        {
+            "sourceLanguage": "gu",
+            "sourceScriptCode": "Gujr",
+            "targetLanguage": "en",
+            "targetScriptCode": "Latn"
+        }
+    ],
+    "license": "cc by-sa 4.0",
+    "domain": [
+        "general"
+    ],
+    "inferenceEndPoint": {
+        "schema": {
+            "request": {
+                "input": [
+                    {
+                        "source": "कैसे हैं आप?"
+                    }
+                ],
+                "config": {
+                    "language": {
+                        "sourceLanguage": "hi",
+                        "targetLanguage": "en"
+                    }
+                }
+            },
+            "response": {
+                "output": [
+                    {
+                        "source": "कैसे हैं आप?",
+                        "target": "How are you?"
+                    }
+                ]
+            }
+        }
+    },
+    "submitter": {
+        "name": "IIIT Hyderabad",
+        "aboutMe": "The NLP-MT Lab in Language Technologies Research Centre works on NLP research and Machine Translation on Indian Languages.",
+        "team": [
+            {
+                "name": "Vandan Mujadia",
+                "aboutMe": "PhD Scholar, IIITH"
+            },
+            {
+                "name": "Pruthwik Mishra",
+                "aboutMe": "PhD Scholar, IIITH"
+            }
+        ]
+    }
+}
